@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cloud Belive | Chatbot Demo Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: #fffaf5;
+      color: #333;
+    }
+
+    .wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #ff7a59; /* HubSpot orange */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    main {
+      flex: 1;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+      margin: 20px;
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      color: #ff7a59;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff7a59;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .card a:hover {
+      background-color: #e06243;
+    }
+
+    footer {
+      background-color: #ff7a59;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Cloud Belive Chatbot Demo Hub</h1>
+    </header>
+
+    <main>
+      <div class="card">
+        <h2>Page 1: Consultation Chatbot</h2>
+        <p>This bot helps leads schedule meetings by collecting name and email.</p>
+        <a href="https://sudharsan143.github.io/chatbot-demo/" target="_blank">Open Page 1</a>
+      </div>
+
+      <div class="card">
+        <h2>Page 2: Nimbus Chatbot</h2>
+        <p>This version collects contact reason, industry, number of employees, name, and email.</p>
+        <a href="https://sudharsan143.github.io/chatbot-demo---2/" target="_blank">Open Page 2</a>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    &copy; 2025 Cloud Belive | All rights reserved
+  </footer>
+</body>
+</html>
